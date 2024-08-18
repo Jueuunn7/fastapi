@@ -6,7 +6,6 @@ from fastapi.responses import JSONResponse
 from src.domain.board.dto.req.BoardReqDto import BoardReqDto
 from src.domain.board.dto.res.BoardResDto import BoardResDto
 from src.domain.board.service.BoardService import BoardService
-from database import transaction
 
 BoardRouter = APIRouter(prefix="/board", tags=["board"])
 

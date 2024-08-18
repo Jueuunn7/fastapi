@@ -2,3 +2,4 @@
 migrations
 .venv
 alembic.ini
+__pycache__
