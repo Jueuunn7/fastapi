@@ -1,5 +1,8 @@
 *.db
 migrations
+migrations/
 .venv
+.venv/
 alembic.ini
 __pycache__
+__pycache__/
